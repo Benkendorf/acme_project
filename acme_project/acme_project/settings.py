@@ -12,6 +12,8 @@ EMAIL_FILE_PATH = BASE_DIR / 'sent_emails'
 
 LOGIN_REDIRECT_URL = 'pages:homepage'
 
+LOGIN_URL = 'login'
+
 ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
